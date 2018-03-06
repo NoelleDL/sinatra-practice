@@ -11,3 +11,7 @@ end
 get '/Vivian and Noelle Rock!' do
   'Vivian and Noelle Rock!'
 end
+
+get '/secret' do
+  "Shhhh! It's BIG a secret"
+end
