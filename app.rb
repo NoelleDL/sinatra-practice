@@ -13,7 +13,5 @@ get '/Vivian and Noelle Rock!' do
 end
 
 get '/cat' do
-  "<div style='border-style: double; border-color: red'>
-  <img src='http://bit.ly/1eze8aE'>
-  </div>"
+  erb(:index)
 end
