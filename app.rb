@@ -13,5 +13,7 @@ get '/Vivian and Noelle Rock!' do
 end
 
 get '/cat' do
+  @cat_name = ['Titty', 'Coffin', 'Buns'].sample
   erb(:index)
+
 end
