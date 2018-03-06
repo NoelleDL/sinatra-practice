@@ -12,8 +12,13 @@ get '/Vivian and Noelle Rock!' do
   'Vivian and Noelle Rock!'
 end
 
-get '/cat' do
+get '/random_cat' do
   @cat_name = ['Titty', 'Coffin', 'Buns'].sample
   erb(:index)
+end
 
+get '/named_cat' do
+  p params
+  @cat_name = params[:name]
+  erb(:index)
 end
